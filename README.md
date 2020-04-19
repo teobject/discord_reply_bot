@@ -14,16 +14,16 @@ Googleスプレッドシートで設定できます。
 
 # Usage
 
-* Discord developにてBOTを作成
+## Discord developにてBOTを作成
 割愛します。
-* Nodeの構築
+## Nodeの構築
 Node.jsを構築し「app」ディレクトリのソースコードを配置
 ※作成者はGlitchを仕様(「app」ディレクトリを圧縮してImportで取込可能)
-* GASの構築
+## GASの構築
 GASにて新規プロジェクトの作成
 新規のGoogleSpreadsheetを作成
 「GAS」ディレクトリ内のソースコードを配置
-* 各環境変数を設定
+## 各環境変数を設定
 Node:「.env」内の「DISCORD_BOT_TOKEN」「GAS_URI」を設定
 GAS：「env.gs」内の各変数を設定
 * Glitch利用の場合
@@ -38,8 +38,7 @@ B列に「返すメッセージ」を記載
 
 # Author
 
-* 作成者
-HOUSEN
+* HOUSEN
 
 # License
 
