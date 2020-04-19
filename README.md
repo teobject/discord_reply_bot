@@ -15,7 +15,7 @@ Googleスプレッドシートで設定できます。
 # Usage
 
 ### Discord developにてBOTを作成
-割愛します。
+* 割愛します。
 ### Nodeの構築
 * Node.jsを構築し「app」ディレクトリのソースコードを配置
 * ※作成者はGlitchを仕様(「app」ディレクトリを圧縮してImportで取込可能)
@@ -26,9 +26,7 @@ Googleスプレッドシートで設定できます。
 ### 各環境変数を設定
 * Node:「.env」内の「DISCORD_BOT_TOKEN」「GAS_URI」を設定
 * GAS：「env.gs」内の各変数を設定
-* Glitch利用の場合
-* スリープを防ぐため「GAS/RetainGlitch.gs」の「doRetain」関数を
-* GASトリガーにて5分ごとで回してください。
+* Glitch利用の場合スリープを防ぐため「GAS/RetainGlitch.gs」の「doRetain」関数をGASトリガーにて5分ごとで回してください。
 
 # Note
 
